@@ -1,0 +1,6 @@
+﻿Make sure to add:
+
+ANDROID or XNA or WINDOWS_PHONE or XBOX
+
+to "Conditional compilation symbols" under the BUILD tab in PROPERTIES of project.
+(This way part of the code will ignored e.g. Vector2 etc, and instead will be used from MonoGame lib)
